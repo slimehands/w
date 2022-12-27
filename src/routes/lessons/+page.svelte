@@ -7,7 +7,7 @@
     <h1>Blog</h1>
       
     <ul>
-      {#each posts as post}
+      {#each data.posts as post}
         <li>
           <h2>
             <a href={post.path}>
